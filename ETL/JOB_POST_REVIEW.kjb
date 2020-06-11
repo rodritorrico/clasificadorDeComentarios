@@ -315,7 +315,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:\Users\Spectre\Desktop\FINAL SIS INFO\Proyecto sis Info 3\ETL\limpiaInput.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}\limpiaInput.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>

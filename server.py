@@ -33,7 +33,10 @@ def predict():
     clean_text = [normalize_document(predict_request)]
     vector = vectorizer.transform(clean_text).toarray()
     prediction = classifier.predict(vector)
-    output = "neg" if prediction[0] == 0 else "pos"
+    if prediction[0] == 0:
+        output = "neg"
+    else:
+        output="pos"
     response = jsonify(output),200
 
     return response
