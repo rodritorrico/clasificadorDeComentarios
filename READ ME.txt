@@ -1,0 +1,4 @@
+Para correr el ETL:
+1) Iniciar servidor: python server.py
+2) Borrar el archivo predicciones.txt en la carpeta ETL
+3) Correr ETL
